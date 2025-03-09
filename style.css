@@ -1,0 +1,149 @@
+body {
+    /* display: flex;
+    height: 100vh;
+    align-items: center;  /* column ke center mei karta hai */
+    /*justify-content: center;  row ke center mei karta hai */
+    background-image: url('https://drive.google.com/thumbnail?id=1aa61IjvhzJ2SNadyk5E06cvjFuGvryuR');
+    background-size: 1000px;
+    background-position: center center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main{
+    display: flex;
+    height: 90vh;
+    align-items: center;  /* column ke center mei karta hai */
+    justify-content: center;  /* row ke center mei karta hai */
+}
+
+.paper {
+    padding: 100px 100px;
+    border: 2px solid black;
+    position: absolute; /* ek ke upar ek kar deta hai */
+    cursor:grab;
+    background-image: url('https://drive.google.com/thumbnail?id=1TPVfStaQ-DYSFrJ2oJG7bLLz7Bx_LW5j');
+    background-size: 100px;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    user-select: none;
+
+}
+
+.paper.paper1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 0;
+    user-select: none;
+    border-radius: 50%; /* Keeps the circle */
+    overflow: hidden; /* Hides overflow to maintain the circle */
+}
+
+.paper.paper1 img {
+    width: 100%; /* Fill the circle */
+    height: 100%; /* Fill the circle */
+    object-fit: cover; /* Ensures the image covers without white space */
+}
+
+
+.paper.paper2{
+    z-index: 9;
+    width: 100px;
+    user-select: none;
+}
+
+.paper.paper3{
+    z-index: 8;
+    width: 300px;
+    user-select: none;
+}
+
+.paper.paper4{
+    z-index: 7;
+    width: 150px;
+    user-select: none;
+}
+
+.paper.paper5{
+    z-index: 6;
+}
+
+.paper.paper6{
+    z-index: 5;
+    padding:0;
+}
+.paper.paper6 img {
+    width: auto;  /* Keep original image width */
+    height: auto; /* Keep original image height */
+}
+
+.paper.paper7 {
+    z-index: 4;
+    padding: 0;
+}
+
+.paper.paper7 img {
+    width: auto;  /* Keep original image width */
+    height: auto; /* Keep original image height */
+}
+
+.paper.paper8 {
+    z-index: 3;
+    padding: 0;
+}
+
+.paper.paper8 img {
+    width: auto;  /* Keep original image width */
+    height: auto; /* Keep original image height */
+}
+
+.paper.paper9 {
+    z-index: 2;
+    padding: 0;
+}
+
+.paper.paper9 img {
+    width: auto;  /* Keep original image width */
+    height: auto; /* Keep original image height */
+}
+
+.paper.paper10 {
+    z-index: 1;
+    padding: 0;
+}
+
+.paper.paper10 img {
+    width: auto;  /* Keep original image width */
+    height: auto; /* Keep original image height */
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: "Zeyada", cursive;
+    font-weight: 500;
+    font-size:xx-large;
+}
+
+.paper img {
+    display: block; /* Removes extra spacing */
+    width: 100%; /* Ensures it fills the container */
+    height: auto; /* Keeps the original aspect ratio */
+    object-fit: cover; /* Crops to fit the container without white space */
+}
