@@ -31,9 +31,10 @@ body {
 
 }
 
-.paper.paper0{
-    z-index: 11;
-    width: 100px;
+.paper.paper0 {
+    z-index: 11; /* Keeps this paper on top */
+    width: 100%; /* Makes it responsive */
+    max-width: 500px; /* Adjust as needed for better text fit */
     user-select: none;
 }
 
