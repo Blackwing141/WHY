@@ -120,6 +120,12 @@ body {
     height: auto; /* Keep original image height */
 }
 
+.paper.paper11{
+    z-index: 11;
+    width: 100px;
+    user-select: none;
+}
+
 
 
 footer{
