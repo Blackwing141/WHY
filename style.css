@@ -31,16 +31,10 @@ body {
 
 }
 
-.paper.paper0 {
+.paper.paper0{
     z-index: 11;
-    width: 100%;
-    max-width: 600px;
+    width: 100px;
     user-select: none;
-    padding: 20px;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-wrap: break-word;
 }
 
 .paper.paper1 {
