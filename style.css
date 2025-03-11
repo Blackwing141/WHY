@@ -1,76 +1,52 @@
-/* Body Styling */
 body {
-    background: url('https://drive.google.com/thumbnail?id=1aa61IjvhzJ2SNadyk5E06cvjFuGvryuR') center/cover no-repeat;
-    overflow: hidden; /* Prevent scrollbars */
-    margin: 0;
+    background-image: url('https://drive.google.com/thumbnail?id=1aa61IjvhzJ2SNadyk5E06cvjFuGvryuR');
+    background-size: 1000px;
+    background-position: center center;
+    overflow: hidden;
 }
 
-/* Main Container */
 .main {
     display: flex;
-    height: 100vh;
-    justify-content: center;
+    height: 90vh;
     align-items: center;
+    justify-content: center;
 }
 
-/* Common Paper Styling */
 .paper {
-    position: absolute;
-    padding: 30px;
+    padding: 20px 100px;
     border: 2px solid black;
+    position: absolute;
     cursor: grab;
-    background: url('https://drive.google.com/thumbnail?id=1TPVfStaQ-DYSFrJ2oJG7bLLz7Bx_LW5j') repeat;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+    background-image: url('https://drive.google.com/thumbnail?id=1TPVfStaQ-DYSFrJ2oJG7bLLz7Bx_LW5j');
+    background-size: 100px;
     transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
     user-select: none;
 }
 
-/* Poem Styling */
-.paper.paper0 {
-    max-width: 500px;
-    z-index: 11;
-    white-space: pre-wrap; /* Preserve poem breaks */
-    word-wrap: break-word; /* Handle long words */
-}
-
-/* Profile Image */
-.paper.paper1 {
-    z-index: 10;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-}
-
-/* Text Papers */
-.paper.paper2,
-.paper.paper3,
-.paper.paper4 {
-    z-index: 9;
-}
-
-/* Image Papers */
-.paper.paper6,
-.paper.paper7,
-.paper.paper8,
-.paper.paper9,
-.paper.paper10 {
-    padding: 0;
-    z-index: 5;
-}
-
 .paper img {
-    width: 100%;
+    display: block;
+    width: auto;
     height: auto;
     object-fit: cover;
 }
 
-/* Footer */
+.paper1 {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.paperPoem {
+    z-index: 11;
+    max-width: 500px;
+}
+
 footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -80,7 +56,7 @@ a {
 
 p {
     font-family: "Zeyada", cursive;
+    font-weight: 500;
     font-size: xx-large;
-    margin: 0;
 }
 
